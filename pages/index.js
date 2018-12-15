@@ -1,7 +1,7 @@
-const Index = () => (
-    <div>
-      <p>Hello Next.js</p>
-    </div>
-  )
-  
-  export default Index
+import Layout from '../components/MyLayout.js'
+
+export default () => (
+    <Layout>
+       <p>Hello Next.js</p>
+    </Layout>
+)

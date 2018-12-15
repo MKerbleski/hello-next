@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\about.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -9921,9 +9921,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/about.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -9933,23 +9933,31 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
-var _jsxFileName = "C:\\Users\\Michael\\LambdaSchool\\sideProjects\\hello-next\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Michael\\LambdaSchool\\sideProjects\\hello-next\\pages\\about.js";
 
+// import Header from '../components/Header'
+// export default () => (
+//     <div>
+//     <Header />
+//       <p>This is the about page</p>
+//     </div>
+//   )
+// pages/about.js
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 16
     },
     __self: this
-  }, "Hello Next.js"));
+  }, "This is the about page"));
 });
     (function (Component, route) {
       if(!Component) return
@@ -9967,21 +9975,21 @@ var _jsxFileName = "C:\\Users\\Michael\\LambdaSchool\\sideProjects\\hello-next\\
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/about")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
-  !*** multi ./pages/index.js ***!
+  !*** multi ./pages/about.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+__NEXT_REGISTER_PAGE('/about', function() {
+module.exports = __webpack_require__(/*! ./pages/about.js */"./pages/about.js");
 
 return { page: module.exports.default }});
 
@@ -9998,5 +10006,5 @@ module.exports = dll_e8427f5b250f425a56e7;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+},[[4,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=about.js.map
